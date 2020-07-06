@@ -9,11 +9,11 @@ In addition kafkactl supports auto-completion for its commands as well as topic 
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/deviceinsight/kafkactl/releases/download/1.9.0/kafkactl_1.9.0_Darwin_x86_64.tar.gz"
+    url "https://github.com/deviceinsight/kafkactl/releases/download/v1.9.0/kafkactl_1.9.0_Darwin_x86_64.tar.gz"
     sha256 "0e6ab48b27af7ca9dc124ce15f074faef316626874c314ff219de36453b09260"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/deviceinsight/kafkactl/releases/download/1.9.0/kafkactl_1.9.0_Linux_x86_64.tar.gz"
+      url "https://github.com/deviceinsight/kafkactl/releases/download/v1.9.0/kafkactl_1.9.0_Linux_x86_64.tar.gz"
       sha256 "824bb82256718fc543fab884a96e1a89ceafabe1da637c22f5e6945922cee83e"
     end
   end
